@@ -160,5 +160,52 @@ main{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px #bbb5b5;
  }
+/* footer */
+
+footer{
+    background-color: #FFF8F3;
+    height: 700px;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    
+    width: 50%;
+}
+.footer-head{
+    font-size: 35px;
+    font-weight: 700;
+}
+footer input[type="text"]{
+    height: 64px;
+    width: 461px;
+    padding-left: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    display: block;
+    margin-bottom: 24px;
+}
+footer input[type="email"]{
+    height: 64px;
+    width: 461px;
+    padding-left: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    display: block;
+    margin-bottom: 24px;
+}
+footer textarea{
+    
+    width: 461px;
+    padding-left: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    display: block;
+    margin-bottom: 24px;
+}
 
 
